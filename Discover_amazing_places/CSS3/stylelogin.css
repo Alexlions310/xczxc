@@ -1,0 +1,101 @@
+/* styling Login form */
+body, html {
+  background-image: url(../pictures/switzerland-31.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+}
+
+/* heading style */
+.heading1 {
+  font-family: 'Dancing Script', cursive;
+  color: #507dc7;
+  display: inline;
+  padding: 33%;
+}
+
+/* styling guest link */
+.hrefa {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/* icon style */
+.signupp {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  color: red;
+  opacity: 0.6;
+}
+
+/* pre class */
+.inline_blockp {
+  display: inline;
+  opacity: 0.9;
+}
+
+/* login buttons */
+.nput {
+  padding: 3% 0;
+  margin-bottom: 10%;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* full login form */
+.logindiv {
+  position: relative;
+  box-sizing: border-box;
+  width: 35%;
+  padding: 5%;
+  margin: 0 auto;
+  margin-top: 9%;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+/* styling button */
+.btn1 {
+  border-radius: 35%;
+}
+
+/* changing font size of input in login */
+@media screen and (max-width:500px) {
+  .heading1 {
+    font-size: 100%;
+  }
+
+  .hrefa {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width:231px) {
+  .heading1 {
+    font-size: 70%;
+  }
+
+  .hrefa {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .nput {
+    font-size: 10px;
+  }
+
+  .signupp {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .logindiv {
+    width: 45%;
+  }
+}
